@@ -1,9 +1,7 @@
 # Qud-Imagemap-Utility
-MANUAL:
     OVERVIEW:
         This is a program designed to help create imagemap links which conform exactly to a grid, designed for usage in wikis for tile-based games.
         More specifically, this was designed for the Caves of Qud Wiki.
-
 
 
     SETUP:
@@ -11,7 +9,6 @@ MANUAL:
 	
 	When creating an imagemap, one needs an image to work on. Upon opening the program, it will bring up a file select dialogue for you to choose the image. 
 	(For practice, I recommend using the image of the Qud World Map which is included in the folder, but you can use anything, just as long as the edges of the image align with the grid for your game.)
-
 
 
     GENERAL INFO:
@@ -28,7 +25,6 @@ MANUAL:
         So, tile 09 G would be column 9, row G
 
 	The coordinates of the currently highlighted tile are displayed next to the entry box, near the bottom-right of the window.
-
 
 
     SINGLE-TILE MODE:
@@ -113,7 +109,6 @@ MANUAL:
         * You *need* to go clockwise around any polygon you want to draw.
         * When finishing a shape (by using the finish command), you must end on the same tile you began on, then input "finish"
         * Currently, the program does not handle diagonals well. It won't crash, but the imagemap will be wonky.
-
 
 
     OTHER GAMES:
