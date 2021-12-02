@@ -169,7 +169,7 @@ def multi_tile_mode():
         # Handling any special inputs from the user.
         # todo Rearrange these commands in order of most likely to be used for small optimization
         # todo Possible new commands:
-        #   * help - prints a list of commands & their functions, as well as directing the user to manual.txt
+        #   * help - prints a list of commands & their functions, as well as directing the user to the README
         #   * pause - troubleshooting only, just runs into a breakpoint
         # The finish command needs to be on its own outside of the main if... elif... else... chain which handles other
         # commands so that fake the "user input" which it assigns will be processed.
@@ -576,7 +576,7 @@ information_box = Label(sidebar, text="Welcome to the Qud Imagemap Utility! \n"
                                       "  clear - fully clear the list of coordinates \n"
                                       "  print - print the current list of coordinates \n"
                                       "  finish - print the list of coordinates and stop the program \n"
-                                      "For a full command list and instructions, see manual.txt.",
+                                      "For a full command list and instructions, see the README.",
                         wraplength=400, bg=foreground_color, fg=text_color, relief=RIDGE, width=50, justify=LEFT, anchor=W)
 information_box.grid(row=0, column=1, columnspan=3, padx=5, pady=3, sticky=EW)
 
